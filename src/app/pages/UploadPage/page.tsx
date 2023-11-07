@@ -16,7 +16,7 @@ export default function UploadPage() {
   const { edgestore } = useEdgeStore();
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen m-6 gap-2">
+    <div className="flex flex-col items-center justify-center h-screen gap-2">
       <SingleImageDropzone
         width={200}
         height={200}
