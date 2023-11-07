@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useEdgeStore } from "@/lib/edgestore";
+import { useEdgeStore } from "@/app/lib/edgestore";
 import Link from "next/link";
 import { SingleImageDropzone } from "@/app/components/SingleImageDropzone";
 

@@ -4,7 +4,7 @@ import {
   MultiFileDropzone,
   type FileState,
 } from "@/app/components/MultipleImagesDropzone";
-import { useEdgeStore } from "@/lib/edgestore";
+import { useEdgeStore } from "@/app/lib/edgestore";
 import { useEffect, useState } from "react";
 
 export default function ProtectUploadPage() {
